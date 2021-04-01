@@ -1,17 +1,47 @@
-html{
-    background-image: url('vat.jpg');
-}
 
 body{
     margin: 0;
+    background-image: url("1.jpg");
+    background-size: cover;
 }
 
 h1{
     font-size: 50px;
     text-align: center;
-    background-image: url('vat.jpg');
+    padding-bottom: 300px;
 }
 
+
 nav{
-    background-color: burlywood;
+    font-size: 34px;
+}
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+.navbar_menu li{
+    padding: 20px 20px;
+    background-color: linen;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.navbar_menu2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+.navbar_menu2 li{
+    padding: 20px 20px;
+    background-color: linen;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+h3{
+    font-size: 100px;
 }
